@@ -45,3 +45,6 @@ drop table kiran;
 create database kiran;
 drop database kiran;
 
+--DML 
+--INSERTING DATA Into a table
+insert into table kiran (values)
