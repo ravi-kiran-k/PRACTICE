@@ -48,3 +48,7 @@ drop database kiran;
 --DML 
 --INSERTING DATA Into a table
 insert into table kiran (values)
+-- cte
+select * from ravi 
+where id like'%rav%';
+
