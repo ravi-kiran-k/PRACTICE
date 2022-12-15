@@ -43,7 +43,6 @@ drop table kiran;
 
 -- dropping database
 create database kiran;
-create database ty;
 drop database kiran;
 
 
