@@ -45,7 +45,7 @@ drop table kiran;
 create database kiran;
 create database ty;
 drop database kiran;
-drop database ty;
+
 
 --DML 
 --INSERTING DATA Into a table
