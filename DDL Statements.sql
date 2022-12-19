@@ -51,5 +51,5 @@ drop database kiran;
 insert into table kiran (values)
 -- cte
 select * from ravi 
-where id like'%rav%';
+
 
