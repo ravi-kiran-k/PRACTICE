@@ -111,8 +111,5 @@ select * from employee_info where id<(select count(id)/2 from employee_info);
 
 -- retrieve 2 minimum and 2 maximum salary data
 
-(select * from employee_info order by salary desc limit 2)
-union
-(select * from employee_info order by salary asc limit 2);
 
 
