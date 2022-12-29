@@ -29,9 +29,6 @@ insert into pract values
       ('v4','2022-01-21','tom',20),
        ('v2','2022-01-18','rom',20);
        
-       update  pract set name= 'Ravi' where id='v1';
-        update  pract set name= 'kiran' where id='v2';
-         update  pract set name= 'rocks' where id='v3';
-          update  pract set name= 'tom' where id='v4';
+      
        
     
