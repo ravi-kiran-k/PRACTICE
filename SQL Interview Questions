@@ -38,5 +38,6 @@ Scenario Based Questions--
 ❗ Write an SQL Query to find name of employee whose name Start with ‘M’?
 ❗ Find the 3rd MAX salary in the emp table?
 ❗ Suppose there is annual salary information provided by emp table.
-
+❗How to fetch monthly salary of each and every employee?
+❗Display the list of employees who have joined the company before 30th June 90 or after 31st dec 90?
 
