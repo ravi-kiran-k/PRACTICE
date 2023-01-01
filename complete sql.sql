@@ -447,15 +447,7 @@ select order_number from orders_dimen;
 
 
 
-(select prod_id from market_fact_full 
-group by prod_id 
-order by sum(profit) desc
-limit 2)
-union 
-(select prod_id from market_fact_full 
-group by prod_id 
-order by sum(profit)
-limit 2);
+
 
 
 
