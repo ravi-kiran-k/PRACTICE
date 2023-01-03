@@ -20,6 +20,18 @@ create table pract(id int not null,
 date date, name varchar(20),age int);
 alter table pract modify column id varchar(20);
 
-
+insert into pract values
+ ('v1','2022-01-16','ravi',20);
+  insert into pract values('v2','2022-01-18','kiran',20),
+   ('v1','2022-01-16','rak',20),
+    ('v3','2022-01-19','goat',20),
+     ('v4','2022-01-20','tim',20),
+      ('v4','2022-01-21','tom',20),
+       ('v2','2022-01-18','rom',20);
+       
+        update  pract set name= 'Ravi' where id='v1';
+        update  pract set name= 'kiran' where id='v2';
+         update  pract set name= 'rocks' where id='v3';
+          update  pract set name= 'tom' where id='v4';
     
       
