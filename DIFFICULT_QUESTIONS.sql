@@ -34,4 +34,12 @@ insert into pract values
          update  pract set name= 'rocks' where id='v3';
           update  pract set name= 'tom' where id='v4';
     
-      
+  with cte as 
+(
+select *,
+row_number() over(partition by date_time order by date_time) as rnum
+from ravi_sel
+)
+select id  from cte 
+group by id
+having max(rnum) =1 and count(id)>1 ;
