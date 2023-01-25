@@ -30,3 +30,17 @@ insert into pract values
        ('v2','2022-01-18','rom',20);
        
       
+  update  pract set name= 'Ravi' where id='v1';
+        update  pract set name= 'kiran' where id='v2';
+         update  pract set name= 'rocks' where id='v3';
+          update  pract set name= 'tom' where id='v4';
+    
+  with cte as 
+(
+select *,
+row_number() over(partition by date_time order by date_time) as rnum
+from ravi_sel
+)
+select id  from cte 
+group by id
+having max(rnum) =1 and count(id)>1 ;
